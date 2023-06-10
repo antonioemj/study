@@ -23,3 +23,15 @@ for ($x = 1; $x <= 10; $x++) {
         echo "$x x $y = " . ($x * $y) . "<br/>";
     }
 }
+echo "<br><hr>";
+
+$cont = 16;
+for(;;) {
+    echo "$cont <br>";
+    $cont++;
+    if($cont > 20) {
+        break;
+    }
+}
+
+echo "<br><hr>";

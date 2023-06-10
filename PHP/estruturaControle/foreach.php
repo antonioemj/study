@@ -11,3 +11,18 @@ foreach ($aereas as $valor) {
 //foreach ($_SERVER as $valor){
 //    var_dump($valor);
 //}
+
+
+$array = [
+    1 => 'Domingo',
+    'Segunda',
+    'Terça',
+    'Quarta',
+    'Quinta',
+    'Sexta',
+    'Sábado'
+];
+
+foreach ($array as $valor) {
+    echo "$valor <br>";
+}

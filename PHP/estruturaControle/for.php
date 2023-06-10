@@ -7,3 +7,7 @@ for (
 ) {
     var_dump($contador);
 }
+
+for($cont = 1; $cont <= 5; $cont++) {
+    echo "$cont <br>";
+}
